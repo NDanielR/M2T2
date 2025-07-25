@@ -8,7 +8,12 @@ public class Car extends Vehicle {
     }
 
     @Override
-    public void mover(){
+    public void mostrarInfo() {
+        super.mostrarInfo();
+    }
+
+    @Override
+    public void mover() {
         System.out.println("El coche se mueve por la carretera.");
     }
 }
