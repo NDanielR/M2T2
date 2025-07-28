@@ -10,6 +10,7 @@ public class Motorcycle extends Vehicle {
     @Override
     public void mostrarInfo() {
         super.mostrarInfo();
+        System.out.println("Esta moto tiene una cilindrada de: " + cilidrada);
     }
 
     @Override

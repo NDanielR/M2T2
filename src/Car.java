@@ -10,6 +10,7 @@ public class Car extends Vehicle {
     @Override
     public void mostrarInfo() {
         super.mostrarInfo();
+        System.out.println("El numero de puertas es: " + numeroPuertas);
     }
 
     @Override

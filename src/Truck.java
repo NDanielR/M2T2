@@ -9,8 +9,8 @@ public class Truck extends Vehicle {
 
     @Override
     public void mostrarInfo() {
-        // TODO Auto-generated method stub
         super.mostrarInfo();
+        System.out.println("Este camion puede cargar un peso de: " + loadCapacity);
     }
 
     @Override
