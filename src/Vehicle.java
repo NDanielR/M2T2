@@ -18,6 +18,8 @@ public abstract class Vehicle {
         System.out.println("Year: " + year);
     }
     
-    public abstract void mover();
+    public void mover(){
+        System.out.println("El vehículo se está moviendo");
+    };
     
 }
