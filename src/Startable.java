@@ -1,5 +1,5 @@
 public interface Startable {
 
-    void star ();
+    public void star ();
 
 }

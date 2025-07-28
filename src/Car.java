@@ -1,4 +1,4 @@
-public class Car extends Vehicle {
+public class Car extends Vehicle implements Startable{
 
     public Integer numeroPuertas;
 
@@ -16,5 +16,9 @@ public class Car extends Vehicle {
     @Override
     public void mover() {
         System.out.println("El coche se mueve por la carretera.");
+    }
+
+    public void star(){
+        System.out.println("El carro arranca con las cuatro llantas en el suelo y los cinturones abrochados");
     }
 }
