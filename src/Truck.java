@@ -1,4 +1,4 @@
-public class Truck extends Vehicle {
+public class Truck extends Vehicle implements Startable{
 
     Double loadCapacity;
 
@@ -19,8 +19,7 @@ public class Truck extends Vehicle {
         
     }
 
-    
-
-    
-
+    public void star(){
+        System.out.println("El camion arranca con el conductor en la cabina y la carga en el baul");
+    }
 }
