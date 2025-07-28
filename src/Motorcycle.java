@@ -1,4 +1,4 @@
-public class Motorcycle extends Vehicle {
+public class Motorcycle extends Vehicle implements Startable {
 
     public Double cilidrada;
 
@@ -16,7 +16,10 @@ public class Motorcycle extends Vehicle {
     @Override
     public void mover() {
         System.out.println("La motocicleta acelera.");
+    }
 
+    public void star(){
+        System.out.println("La moto arranca con las dos llantas en el suelo y el piloto con el casco puesto.");
     }
 
 }
